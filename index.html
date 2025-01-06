@@ -121,10 +121,10 @@
         </div>
     </section>
     <div class="container text-center my-4">
-        <button class="btn btn-primary filter-btn" data-filter="all">Semua</button>
-        <button class="btn btn-primary filter-btn" data-filter="tugas">Tugas</button>
-        <button class="btn btn-primary filter-btn" data-filter="sertifikat">Sertifikat</button>
-        <button class="btn btn-primary filter-btn" data-filter="game">Game</button>
+        <button class="btn btn-primary filter-btn" onclick="showAll()">Semua</button>
+        <button class="btn btn-primary filter-btn" onclick="showTugas()">Tugas</button>
+        <button class="btn btn-primary filter-btn" onclick="showSertifikat()">Sertifikat</button>
+        <button class="btn btn-primary filter-btn" onclick="showGame()">Game</button>
     </div>
     
 
@@ -136,7 +136,7 @@
 
                 <div class="portfolio-container"> 
                     <div class="col-md-6 col-lg-4 new">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item all tugas">
                             <img src="assets/tugas/Form Login.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/tugas/Form Login.png"></a>
@@ -150,7 +150,7 @@
                         </div>             
                     </div>
                     <div class="col-md-6 col-lg-4 new">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item all tugas">
                             <img src="assets/tugas/Calculator.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/tugas/Calculator.png"></a>
@@ -163,8 +163,8 @@
                             </div> 
                         </div>                         
                     </div>
-                    <div class="col-md-6 col-lg-4 advertising new">
-                        <div class="portfolio-item">
+                    <div class="col-md-6 col-lg-4 new">
+                        <div class="portfolio-item all tugas">
                             <img src="assets/tugas/Dashboard.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                     
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/tugas/Dashboard.png"></a>
@@ -177,8 +177,8 @@
                             </div>    
                         </div>              
                     </div> 
-                    <div class="col-md-6 col-lg-4 advertising new"> 
-                        <div class="portfolio-item">
+                    <div class="col-md-6 col-lg-4 new"> 
+                        <div class="portfolio-item all sertifikat">
                             <img src="assets/tugas/Sertifikat HTML.jpeg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/tugas/Sertifikat HTML.jpeg" style="color: white; font-size: 1.2em;">
@@ -190,8 +190,8 @@
                             </div>
                         </div>                                                       
                     </div>
-                    <div class="col-md-6 col-lg-4 advertising new"> 
-                        <div class="portfolio-item">
+                    <div class="col-md-6 col-lg-4 new"> 
+                        <div class="portfolio-item all sertifikat">
                             <img src="assets/tugas/Sertifikat CSS.jpeg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/tugas/Sertifikat CSS.jpeg" style="color: white; font-size: 1.2em;">
@@ -203,8 +203,8 @@
                             </div>
                         </div>                                                       
                     </div> 
-                    <div class="col-md-6 col-lg-4 advertising new"> 
-                        <div class="portfolio-item">
+                    <div class="col-md-6 col-lg-4 new"> 
+                        <div class="portfolio-item all sertifikat">
                             <img src="assets/tugas/Sertifikat JavaScript.jpeg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/tugas/Sertifikat JavaScript.jpeg" style="color: white; font-size: 1.2em;">
@@ -216,8 +216,8 @@
                             </div>
                         </div>                                                       
                     </div>
-		<div class="col-md-6 col-lg-4 advertising new"> 
-                        <div class="portfolio-item">
+		<div class="col-md-6 col-lg-4 new"> 
+                        <div class="portfolio-item all game">
                             <img src="assets/tugas/tetris.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/tugas/gametetris.html" style="color: white; font-size: 1.2em;">
@@ -229,8 +229,8 @@
                             </div>
                         </div>                                                       
                     </div> 
-			 <div class="col-md-6 col-lg-4 advertising new"> 
-                        <div class="portfolio-item">
+			 <div class="col-md-6 col-lg-4 new"> 
+                        <div class="portfolio-item all sertifikat">
                             <img src="assets/tugas/sertifikat js inter.jpeg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/tugas/sertifikat js inter.jpeg" style="color: white; font-size: 1.2em;">
@@ -242,8 +242,8 @@
                             </div>
                         </div>                                                       
                     </div>
-			<div class="col-md-6 col-lg-4 advertising new"> 
-                        <div class="portfolio-item">
+			<div class="col-md-6 col-lg-4 new"> 
+                        <div class="portfolio-item all tugas">
                             <img src="assets/tugas/diagram.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/tugas/dashboardpenjualan.html" style="color: white; font-size: 1.2em;">
@@ -255,8 +255,8 @@
                             </div>
                         </div>                                                       
                     </div> 
-			<div class="col-md-6 col-lg-4 advertising new"> 
-                        <div class="portfolio-item">
+			<div class="col-md-6 col-lg-4 new"> 
+                        <div class="portfolio-item all tugas">
                             <img src="assets/imgs/dashboard admin.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
                             <div class="content-holder">
                                 <a class="img-popup" href="https://helmimuktiwibawa.github.io/Helmi-Mukti-Wibawa-05TPLP007/index.html" style="color: white; font-size: 1.2em;">
@@ -301,6 +301,57 @@
 
     <!-- JohnDoe js -->
     <script src="assets/js/johndoe.js"></script>
+
+    <script type="text/javascript">
+        function showAll() {
+    // Menampilkan semua item
+    const items = document.querySelectorAll('.portfolio-item');
+    items.forEach(item => {
+        item.style.display = 'block';
+    });
+    }
+    
+    function showSertifikat() {
+        // Menyembunyikan semua item
+        const items = document.querySelectorAll('.portfolio-item');
+        items.forEach(item => {
+            item.style.display = 'none';
+        });
+    
+        // Menampilkan hanya item dengan kelas 'sertifikat'
+        const sertifikatItems = document.querySelectorAll('.portfolio-item.sertifikat');
+        sertifikatItems.forEach(item => {
+            item.style.display = 'block';
+        });
+    }
+
+        function showTugas() {
+        // Menyembunyikan semua item
+        const items = document.querySelectorAll('.portfolio-item');
+        items.forEach(item => {
+            item.style.display = 'none';
+        });
+    
+        // Menampilkan hanya item dengan kelas 'sertifikat'
+        const sertifikatItems = document.querySelectorAll('.portfolio-item.tugas');
+        sertifikatItems.forEach(item => {
+            item.style.display = 'block';
+        });
+    }
+        function showGame() {
+        // Menyembunyikan semua item
+        const items = document.querySelectorAll('.portfolio-item');
+        items.forEach(item => {
+            item.style.display = 'none';
+        });
+    
+        // Menampilkan hanya item dengan kelas 'sertifikat'
+        const sertifikatItems = document.querySelectorAll('.portfolio-item.game');
+        sertifikatItems.forEach(item => {
+            item.style.display = 'block';
+        });
+    }
+    </script>
     
 
 </body>
